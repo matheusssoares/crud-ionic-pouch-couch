@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Amigos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let item of amigos">
+    <ion-label class="ion-text-wrap">
+      <h3>Nome: {{ item.nome }}</h3>
+      <p>Idade: {{ item.idade }}</p>
+    </ion-label>
+  </ion-item>
+</ion-content>
